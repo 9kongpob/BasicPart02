@@ -8,7 +8,7 @@ namespace BasicPart02_InputOutput
         {
             Console.Write("Input your name: ");
             string name = Console.ReadLine();
-            Console.Write("Input your birthyear: ");
+            Console.Write("Input your birthYear: ");
             int result;
             int.TryParse(Console.ReadLine(), out result);
             result = result + 543;
